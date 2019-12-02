@@ -62,7 +62,7 @@ Repo & Video
 ------------
 Video: https://www.youtube.com/watch?v=ET5VRcT8A88&feature=youtu.be
 
-Github repository:
+Github repository:https://github.com/DanDLion210/CSCA20
 
 How to run the program 
 --------
