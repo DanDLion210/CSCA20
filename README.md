@@ -63,3 +63,7 @@ Repo & Video
 Video: https://www.youtube.com/watch?v=ET5VRcT8A88&feature=youtu.be
 
 Github repository:
+
+How to run the program 
+--------
+Just press the run button
