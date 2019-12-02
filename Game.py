@@ -14,12 +14,12 @@ class pokemon:
             "\nWhat move would you like to make? \n Leach seed, \n scratch, \n quick attack, \n howl\n").lower()
         if choice == "leach seed":
             # leaches 10% of the opponents health
-            leached_health = opponent.health / 100
+            leached_health = opponent.health / 10
             opponent.health = opponent.health - leached_health
             party[current_pokemon].health = party[current_pokemon].health + leached_health
             print("Your health is now :.", party[current_pokemon].health)
         elif choice == "scratch" or choice == "quick attack":
-            damage = ((party[current_pokemon].strength * actions[choice] * opponent.defence) / 10)
+            damage = ((party[current_pokemon].strength * actions[choice] * opponent.defence) / 100)
             print("You deal:.", damage, " damage")
             opponent.health = opponent.health - damage
         elif choice == "howl":
