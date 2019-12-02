@@ -66,4 +66,4 @@ Github repository:https://github.com/DanDLion210/CSCA20
 
 How to run the program 
 --------
-Just press the run button
+download Game.py and Just press the run button
